@@ -1,11 +1,12 @@
 {
-  "title": "uniq action for [ChainyJS](http://chainy.bevry.me)",
+  "title": "Unique action for [ChainyJS](http://chainyjs.org)",
   "name": "chainy-plugin-uniq",
-  "version": "0.1.0",
+  "version": "1.0.0",
   "description": "Chainy action that rejects duplicates inside the chain's data array, based on the item itself, or a particular field",
   "homepage": "https://github.com/chainy-plugins/uniq",
   "keywords": [
     "chainy-action",
+    "chainy-standalone",
     "chainy-modifier",
     "chainy-plugin",
     "chainy-extension",
@@ -30,7 +31,9 @@
   "maintainers": [
     "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
   ],
-  "contributors": [],
+  "contributors": [
+    "Benjamin Lupton <b@lupton.cc> (https://github.com/balupton)"
+  ],
   "bugs": {
     "url": "https://github.com/chainy-plugins/uniq/issues"
   },
@@ -43,15 +46,15 @@
   },
   "dependencies": {},
   "peerDependencies": {
-    "chainy-core": "*"
+    "chainy-core": "1"
   },
   "devDependencies": {
-    "chainy-plugin-set": "*",
-    "chainy-core": "*",
-    "joe": "~1.4.0",
+    "chainy-plugin-set": "1",
+    "chainy-core": "1",
+    "joe": "~1.5.0",
     "joe-reporter-console": "~1.2.1",
     "chai": "~1.9.1",
-    "projectz": "~0.3.11"
+    "projectz": "~0.3.15"
   },
   "directories": {
     "test": "test"

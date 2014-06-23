@@ -1,7 +1,7 @@
 
 <!-- TITLE/ -->
 
-# uniq action for [ChainyJS](http://chainy.bevry.me)
+# Unique action for [ChainyJS](http://chainyjs.org)
 
 <!-- /TITLE -->
 
@@ -33,7 +33,7 @@ Chainy action that rejects duplicates inside the chain's data array, based on th
 Can optionally accept a single argument specifying a field to check for duplicates for
 
 ``` javascript
-require('chainy-core').create().require('set uniq log')
+require('chainy').create().require('set uniq log')
 	// Unique by item
 	.set([1, 1, 2, 3])
 	.uniq()
@@ -59,7 +59,7 @@ require('chainy-core').create().require('set uniq log')
 ### [Browserify](http://browserify.org/)
 - Use: `require('chainy-plugin-uniq')`
 - Install: `npm install --save chainy-plugin-uniq`
-- CDN URL: `//wzrd.in/bundle/chainy-plugin-uniq@0.1.0`
+- CDN URL: `//wzrd.in/bundle/chainy-plugin-uniq@1.0.0`
 
 ### [Ender](http://ender.jit.su/)
 - Use: `require('chainy-plugin-uniq')`
@@ -107,8 +107,11 @@ No sponsors yet! Will you be the first?
 
 ### Contributors
 
-No contributors yet! Will you be the first?
-[Discover how you can contribute by heading on over to the `CONTRIBUTING.md` file.](https://github.com/chainy-plugins/chainy-plugin-uniq/blob/master/CONTRIBUTING.md#files)
+These amazing people have contributed code to this project:
+
+- [Benjamin Lupton](https://github.com/balupton) <b@lupton.cc> — [view contributions](https://github.com/chainy-plugins/uniq/commits?author=balupton)
+
+[Become a contributor!](https://github.com/chainy-plugins/chainy-plugin-uniq/blob/master/CONTRIBUTING.md#files)
 
 <!-- /BACKERS -->
 
